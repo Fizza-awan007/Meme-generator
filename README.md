@@ -1,20 +1,8 @@
-# Meme Generator 😂✨
+# React + Vite
 
-**Meme Generator** is a React-based web application that allows users to create hilarious memes by adding custom text to meme templates. The app is interactive, fun, and easy to use, making meme creation a breeze!
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- 🖋️ **Custom Text Input**: Add top and bottom text to your memes.
-- 🖼️ **Dynamic Meme Images**: Fetches random meme images to use as templates.
-- 🎨 **Interactive UI**: Simple and clean interface for seamless meme generation.
-- 🖱️ **Refresh Templates**: Easily fetch new meme templates with a single click.
+Currently, two official plugins are available:
 
-## Tech Stack
-- **Frontend**: React (Functional Components, Hooks)
-- **Styling**: CSS
-- **Logic**: JavaScript
-- **Build Tool**: Vite
-
-## How It Works
-1. Add your desired text in the **Top Text** and **Bottom Text** input fields.
-2. Click the "Get a new meme image" button to fetch a random meme template.
-3. Your custom meme will be displayed with the entered text over the meme image.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
